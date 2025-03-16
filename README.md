@@ -40,7 +40,7 @@ Q3: 分析設定不同的 batch size 及 epoch，對訓練模型所需之訓練�
   ReLU: 測試MAE = 3.1748, 測試RMSE = 4.7869, 測試MAPE = 15.9137%, 訓練時間 = 7.73 秒
   Softplus: 測試MAE = 3.2749, 測試RMSE = 4.9243, 測試MAPE = 16.8373%, 訓練時間 = 7.61秒
 
-分析: ReLU和Softplus表現接近且明顯優於Sigmoid。ReLU的MAE為3.1748，MAPE為15.9137%；Softplus指標相近，MAE為3.2749，MAPE為16.8373%。Sigmoid表現最差，MAE高達5.8441，MAPE達25.4976%。數據清晰顯示，在非線性回歸問題中，ReLU類激活函數明顯優於Sigmoid。
+分析:ReLU和Softplus表現接近且明顯優於Sigmoid。ReLU的MAE為3.1748，MAPE為15.9137%；Softplus指標相近，MAE為3.2749，MAPE為16.8373%。Sigmoid表現最差，MAE高達5.8441，MAPE達25.4976%。數據清晰顯示，在非線性回歸問題中，ReLU類激活函數明顯優於Sigmoid。
 
 3. 批次大小和訓練輪數實驗結果:
   批次=16, 輪數=5: 測試MAE = 6.0275, 測試RMSE = 7.7888, 測試MAPE = 32.2439%, 訓練時間 = 1.92秒
